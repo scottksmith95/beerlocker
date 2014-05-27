@@ -1,0 +1,9 @@
+{
+  "name": "beerlocker",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.1.1",
+    "mongoose": "^3.8.8",
+    "body-parser": "^1.0.2"
+  }
+}
