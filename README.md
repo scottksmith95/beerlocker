@@ -20,4 +20,16 @@ In this part we will dive a bit deeper and learn how to implement CRUD operation
 
 ####beerlocker-3.1
 
+Starting point for the third article on implementing Passport. This is to clean up the code a bit from our previous tutorials.
+
+####beerlocker-3.2
+
+In our previous article we ended wtih a fairly functional API capable of adding, removing, updating, and viewing beer.
+
+In this part we will dive into creating user accounts and authentication using Passport. By the end of this article you will have learned how to add user accounts, implement authentication, and control access to beer lockers.
+
+[Beer Locker: Building a RESTful API With Node - Passport](http://scottksmith.com/blog/2014/05/29/beer-locker-building-a-restful-api-with-node-passport/)
+
+###beerlocker-4
+
 Coming soon...
