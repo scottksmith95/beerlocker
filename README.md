@@ -32,4 +32,8 @@ In this part we will dive into creating user accounts and authentication using P
 
 ###beerlocker-4
 
-Coming soon...
+In our previous article we ended wtih a functional API capable of creating user accounts, locking down API endpoints, and only allowing access to a user’s own beer locker.
+
+In this part we will dive into creating an OAuth2 server and allowing access to API endpoints for the authorized user or authorized applications. We will do this by integrating OAuth2orize into our application.
+
+[Beer Locker: Building a RESTful API With Node - OAuth2 Server](http://scottksmith.com/blog/2014/07/02/beer-locker-building-a-restful-api-with-node-oauth2-server/)
