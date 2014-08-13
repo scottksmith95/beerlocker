@@ -14,7 +14,9 @@ mongoose.connect('mongodb://localhost:27017/beerlocker');
 var app = express();
 
 // Use the body-parser package in our application
-app.use(bodyParser());
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 
 // Use the passport package in our application
 app.use(passport.initialize());
