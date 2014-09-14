@@ -37,3 +37,13 @@ In our previous article we ended wtih a functional API capable of creating user 
 In this part we will dive into creating an OAuth2 server and allowing access to API endpoints for the authorized user or authorized applications. We will do this by integrating OAuth2orize into our application.
 
 [Beer Locker: Building a RESTful API With Node - OAuth2 Server](http://scottksmith.com/blog/2014/07/02/beer-locker-building-a-restful-api-with-node-oauth2-server/)
+
+###beerlocker-5
+
+In our previous article we ended wtih a functional API capable of creating user accounts, locking down API endpoints, only allowing access to a user's own beer locker, and an OAuth2 server.
+
+Many readers have asked questions about how to use different authentication strategies so I am going to continue this series and delve into many of those strategies.
+
+This article will explore the use of Digest authentication instead of Basic.
+
+[Beer Locker: Building a RESTful API with Node - Digest](http://scottksmith.com/blog/2014/09/14/beer-locker-building-a-restful-api-with-node-digest/)
