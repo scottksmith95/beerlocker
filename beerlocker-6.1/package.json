@@ -1,0 +1,16 @@
+{
+  "name": "beerlocker",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.1.1",
+    "mongoose": "^3.8.8",
+    "body-parser": "^1.0.2",
+    "bcrypt-nodejs": "0.0.3",
+    "passport": "^0.2.0",
+    "passport-http": "^0.2.2",
+    "passport-http-bearer": "^1.0.1",
+    "oauth2orize": "^1.0.1",
+    "express-session": "^1.6.1",
+    "ejs": "^1.0.0"
+  }
+}
