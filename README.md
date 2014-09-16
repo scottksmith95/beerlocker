@@ -47,3 +47,13 @@ Many readers have asked questions about how to use different authentication stra
 This article will explore the use of Digest authentication instead of Basic.
 
 [Beer Locker: Building a RESTful API with Node - Digest](http://scottksmith.com/blog/2014/09/14/beer-locker-building-a-restful-api-with-node-digest/)
+
+####beerlocker-6.1
+
+Starting point for the sixth article on using username and password for authentication. This is to clean up the code a bit from our previous tutorial.
+
+####beerlocker-6.2
+
+In our previous article we explored implementing Digest authentication in place of Basic. This article will now delve into implementing username and password authentication using the passport-local module.
+
+[Beer Locker: Building a RESTful API With Node - Username & Password](http://scottksmith.com/blog/2014/09/15/beer-locker-building-a-restful-api-with-node-username-and-password/)
