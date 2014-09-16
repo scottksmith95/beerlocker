@@ -11,6 +11,7 @@
     "passport-http-bearer": "^1.0.1",
     "oauth2orize": "^1.0.1",
     "express-session": "^1.6.1",
-    "ejs": "^1.0.0"
+    "ejs": "^1.0.0",
+    "passport-local": "^1.0.0"
   }
 }
