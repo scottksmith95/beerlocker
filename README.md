@@ -56,4 +56,4 @@ Starting point for the sixth article on using username and password for authenti
 
 In our previous article we explored implementing Digest authentication in place of Basic. This article will now delve into implementing username and password authentication using the passport-local module.
 
-[Beer Locker: Building a RESTful API With Node - Username & Password](http://scottksmith.com/blog/2014/09/15/beer-locker-building-a-restful-api-with-node-username-and-password/)
+[Beer Locker: Building a RESTful API With Node - Username & Password](http://scottksmith.com/blog/2014/09/18/beer-locker-building-a-restful-api-with-node-username-and-password/)
