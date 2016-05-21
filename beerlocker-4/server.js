@@ -21,12 +21,13 @@ var app = express();
 app.set('view engine', 'ejs');
 
 // Use the body-parser package in our application
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true
 }));
 
 // Use express session support since OAuth2orize requires it
-app.use(session({ 
+app.use(session({
   secret: 'Super Secret Session Key',
   saveUninitialized: true,
   resave: true
