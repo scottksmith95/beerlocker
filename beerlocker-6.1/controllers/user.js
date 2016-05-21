@@ -10,7 +10,7 @@ exports.postUsers = function(req, res) {
 
   user.save(function(err) {
     if (err)
-      res.send(err);
+      return res.send(err);
 
     res.json({ message: 'New beer drinker added to the locker room!' });
   });
@@ -20,7 +20,7 @@ exports.postUsers = function(req, res) {
 exports.getUsers = function(req, res) {
   User.find(function(err, users) {
     if (err)
-      res.send(err);
+      return res.send(err);
 
     res.json(users);
   });
